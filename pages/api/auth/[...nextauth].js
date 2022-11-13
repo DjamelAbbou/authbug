@@ -1,6 +1,6 @@
 import NextAuth from "next-auth";
 import { MongoDBAdapater } from "@next-auth/mongodb-adapter";
-import clientPromise from "@/modules/db";
+import clientPromise from "../../../modules/db";
 import CredentialsProvider from "next-auth/providers/credentials";
 
 export default NextAuth({
